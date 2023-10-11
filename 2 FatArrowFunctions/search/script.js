@@ -11,6 +11,8 @@ function show() {
     }, 1000);
 }
 
+//arrow function this diea window k bujhe
+//give error
 // const show = ()=>{
 // 	console.log(this);
 // 	display.innerHTML = this.value;

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+//normal function work as a constractor
+function person(name){
+	this.name = name;
+}
+
+var sakib = new person('sakib');
+
+//arrow function constractor hishebe kaj kore na
+//give error
+const person2 = (name2)=>{
+	this.name2 = name2;
+}
+
+var person_two = new person2('sakib2');
+
+</script>
+</body>
+</html>
